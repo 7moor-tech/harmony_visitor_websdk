@@ -1,0 +1,95 @@
+{
+  "module": {
+    "name": "entry",
+    "type": "entry",
+    "description": "$string:module_desc",
+    "mainElement": "EntryAbility",
+    "deviceTypes": [
+      "phone",
+      "tablet",
+      "2in1"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "EntryAbility",
+        "srcEntry": "./ets/entryability/EntryAbility.ets",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:layered_image",
+        "launchType": "singleton",
+        "label": "$string:EntryAbility_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ]
+      }
+    ],
+    "extensionAbilities": [
+      {
+        "name": "EntryBackupAbility",
+        "srcEntry": "./ets/entrybackupability/EntryBackupAbility.ets",
+        "type": "backup",
+        "exported": false,
+        "metadata": [
+          {
+            "name": "ohos.extension.backup",
+            "resource": "$profile:backup_config"
+          }
+        ]
+      }
+    ],
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.INTERNET",
+        "reason": "$string:permission_net",
+      },
+      {
+        "name" : "ohos.permission.WRITE_IMAGEVIDEO",
+        "reason": "$string:permission_WRITE_IMAGEVIDEO",
+        "usedScene": {
+          "when":"always"
+        }
+      },
+      {
+        "name" : "ohos.permission.READ_IMAGEVIDEO",
+        "reason": "$string:permission_READ_IMAGEVIDEO",
+        "usedScene": {
+          "when":"always"
+        }
+      },
+      {
+        "name" : "ohos.permission.CAMERA",
+        "reason": "$string:permission_CAMERA",
+        "usedScene": {
+          "when":"always"
+        }
+      },
+      {
+        "name" : "ohos.permission.MICROPHONE",
+        "reason": "$string:permission_MICROPHONE",
+        "usedScene": {
+          "when":"always"
+        }
+      }
+//      {
+//        "name" : "ohos.permission.FILE_ACCESS_PERSIST",
+//        "reason": "$string:permission_FILE_ACCESS_PERSIST",
+//        "usedScene": {
+//          "when":"inuse"
+//        }
+//      }
+
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Moor_Demo"
+    },
+    {
+      "name": "permission_net",
+      "value": "访问网络"
+    },
+    {
+      "name": "permission_WRITE_IMAGEVIDEO",
+      "value": "保存会话中的图片或视频到本地"
+    },
+    {
+      "name": "permission_READ_IMAGEVIDEO",
+      "value": "选择照片用于发送到会话中"
+    },
+    {
+      "name": "permission_FILE_ACCESS_PERSIST",
+      "value": "选择文件用于发送到会话中"
+    },
+    {
+      "name": "permission_CAMERA",
+      "value": "使用相机进行视频通话"
+    },
+    {
+      "name": "permission_MICROPHONE",
+      "value": "使用麦克风进行视频通话"
+    }
+  ]
+}
