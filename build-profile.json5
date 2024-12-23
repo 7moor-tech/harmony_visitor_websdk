@@ -5,13 +5,13 @@
         "name": "default",
         "type": "HarmonyOS",
         "material": {
-          "certpath": "/Users/jiangbingxuan/.ohos/config/default_7moor_webview_pvoZJJuxBB6QFhhP7QttgXLuflf10tDBn49G1Ms-2LQ=.cer",
-          "storePassword": "0000001A8C05720D5D67E07929682D89217F7CAF19236CB87613D17C0DB800CAA31C1C31CEDEBAFF942A",
+          "certpath": "C:\\Users\\ASUS\\.ohos\\config\\default_hw_webview_sdk_3FAK1xAVlp6gvn9Y7Q9Mzdg9HsuCZE3LKlL3sYbVJYA=.cer",
+          "storePassword": "0000001BA49993C6DE796B3BC89D0B65C6818C7B9F329BAE82B7142A83C887D964ABDD27494D894D2D9F65",
           "keyAlias": "debugKey",
-          "keyPassword": "0000001A83876BC226829BB272CC9ED7A62BADB0EE77ADFFD22A88529424B57273B391777C8D28FD067D",
-          "profile": "/Users/jiangbingxuan/.ohos/config/default_7moor_webview_pvoZJJuxBB6QFhhP7QttgXLuflf10tDBn49G1Ms-2LQ=.p7b",
+          "keyPassword": "0000001B533746F01ED439D21199C31826D963CA2E46B063F4DCDDDF93D3B463A0C014F8EF2F2AC36F3651",
+          "profile": "C:\\Users\\ASUS\\.ohos\\config\\default_hw_webview_sdk_3FAK1xAVlp6gvn9Y7Q9Mzdg9HsuCZE3LKlL3sYbVJYA=.p7b",
           "signAlg": "SHA256withECDSA",
-          "storeFile": "/Users/jiangbingxuan/.ohos/config/default_7moor_webview_pvoZJJuxBB6QFhhP7QttgXLuflf10tDBn49G1Ms-2LQ=.p12"
+          "storeFile": "C:\\Users\\ASUS\\.ohos\\config\\default_hw_webview_sdk_3FAK1xAVlp6gvn9Y7Q9Mzdg9HsuCZE3LKlL3sYbVJYA=.p12"
         }
       }
     ],
