@@ -6,7 +6,7 @@
   "author": "",
   "license": "",
   "dependencies": {
-     "@moor/visitor_websdk":"1.0.0-preview4"
+     "@moor/visitor_websdk":"1.0.0-preview5"
   }
 }
 
