@@ -55,20 +55,6 @@
         "reason": "$string:permission_net",
       },
       {
-        "name" : "ohos.permission.WRITE_IMAGEVIDEO",
-        "reason": "$string:permission_WRITE_IMAGEVIDEO",
-        "usedScene": {
-          "when":"always"
-        }
-      },
-      {
-        "name" : "ohos.permission.READ_IMAGEVIDEO",
-        "reason": "$string:permission_READ_IMAGEVIDEO",
-        "usedScene": {
-          "when":"always"
-        }
-      },
-      {
         "name" : "ohos.permission.CAMERA",
         "reason": "$string:permission_CAMERA",
         "usedScene": {
